@@ -1,0 +1,28 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Zack Nani Live Extension",
+    "version": "1.0.0",
+    "description": "Ne manquez plus aucun live de la ZackNaniTV !",
+    "manifest_version": 3,
+    "author": "Martin Galoux - @ZequarSSB",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Zack Nani Live Extension",
+        "default_icon": {
+            "16": "icons/icon16off.png",
+            "32": "icons/icon32off.png",
+            "48": "icons/icon48off.png",
+            "128": "icons/icon128off.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+],
+    "icons": {"128": "icons/icon128.png", "48": "icons/icon48.png", "32": "icons/icon32.png", "16": "icons/icon16.png"}
+}

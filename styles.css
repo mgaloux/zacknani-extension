@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 20;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+}
+
+#mainWrapper {
+    width: 450px;
+    margin: 28px;
+    padding: 0;
+}
+
+#headerWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.blackText {
+    font-weight: 900;
+}
+
+.thinText {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.smallH1 {
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.buttonWrapper {
+    background-color: #222222;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+
+.twitch > .buttonWrapper {
+    filter: drop-shadow(1px 1px 0px #FFF);
+}
+
+.twitch {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.youtube > .buttonWrapper {
+    filter: drop-shadow(1px 1px 0px #FFF);
+}
+
+.buttonWrapper > b {
+    font-weight: 900;
+}
+
+.gapBetween {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.twitch > .content {
+    border-left: #FC5D0C solid 5px;
+}
+
+.youtube > .content {
+    border-left: #BD0000 solid 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {    
+    color: #FFF;
+    filter: drop-shadow(0px 0px 1px #FFF);
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.thumbnail {
+    width: 40vh;
+    height: calc(40vh * (7/16));
+    object-fit: cover;
+    object-position: center;
+    margin-left: 1rem;
+}
+
+.setAside {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.youtubeLastVideoInfo {
+    width: 60vh;
+}
